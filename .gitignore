@@ -1,0 +1,4 @@
+target/
+dados/
+.vscode/
+*.class
