@@ -20,7 +20,7 @@ Sistema de monitoramento territorial para risco de alagamento (recorte: clima lo
 3. Cada previsão é comparada com os limiares do tipo de sensor. Níveis: ATENÇÃO, ALERTA e CRÍTICO.
 4. O alerta explica o porquê: qual sensor, valor previsto e limite ultrapassado. Alertas ficam gravados no banco.
 
-Limiares iniciais (valores definidos pelo autor, sem fonte oficial; podem ser alterados no menu):
+Limiares iniciais (definidos sem fonte):
 
 | Sensor | Atenção | Alerta | Crítico |
 |---|---|---|---|
@@ -84,8 +84,8 @@ Por que o alerta apoia a decisão em vez de decidir?
 
 ## Uso de IA
 Declaração de uso de IA:
-- Onde usei: utilizamos o assistente Claude (Anthropic) como apoio durante o desenvolvimento: planejamento da arquitetura e da ordem de implementação, auxilio para a criação do código-base das classes e dos testes e explicações sobre os conceitos (exceções, JDBC, padrão Factory, Mockito) e criação da documentação.
-- Como revisei: Ajustamos as respostas do Claude para o prompt e pedimos explicações sobre trechoes que não entedemos, seja do arquivo da atividade ou da resposta enviada por ele.
+- Onde usamos: Utilizamos o assistente Claude (Anthropic) como apoio durante o desenvolvimento: planejamento da arquitetura e da ordem de implementação, auxilio para a criação do código-base das classes e dos testes e explicações sobre os conceitos (exceções, JDBC, padrão Factory, Mockito) e criação da documentação.
+- Como revisamos: Ajustamos as respostas do Claude para o prompt e pedimos explicações sobre trechoes que não entedemos, seja do arquivo da atividade ou da resposta enviada por ele.
 
 ## Divisão de tarefas
 Projeto desenvolvido por Gustavo Lemos com tarefas de persistência, previsões, padrão criacional, menu e testes. e Pedro Paulo, com tarefas de domínio, exceções, serviço e documentação.
